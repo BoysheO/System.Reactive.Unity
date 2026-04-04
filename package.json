@@ -1,0 +1,6 @@
+{
+  "name": "system.reactive",
+  "version": "7.0.0",
+  "displayName": "System.Reactive",
+  "description": "Reactive Extensions for .NET"
+}
