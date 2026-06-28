@@ -63,28 +63,16 @@ namespace System.Reactive {
         /// <summary>
         ///   Looks up a localized string similar to Expected Qbservable.ToQueryable..
         /// </summary>
-        internal static string EXPECTED_TOQUERYABLE_METHODCALL {
-            get {
-                return ResourceManager.GetString("EXPECTED_TOQUERYABLE_METHODCALL", resourceCulture);
-            }
-        }
+        internal static string EXPECTED_TOQUERYABLE_METHODCALL => "Expected Qbservable.ToQueryable.";
         
         /// <summary>
         ///   Looks up a localized string similar to Invalid expression tree type..
         /// </summary>
-        internal static string INVALID_TREE_TYPE {
-            get {
-                return ResourceManager.GetString("INVALID_TREE_TYPE", resourceCulture);
-            }
-        }
+        internal static string INVALID_TREE_TYPE => "Invalid expression tree type.";
         
         /// <summary>
         ///   Looks up a localized string similar to There is no method &apos;{0}&apos; on type &apos;{1}&apos; that matches the specified arguments..
         /// </summary>
-        internal static string NO_MATCHING_METHOD_FOUND {
-            get {
-                return ResourceManager.GetString("NO_MATCHING_METHOD_FOUND", resourceCulture);
-            }
-        }
+        internal static string NO_MATCHING_METHOD_FOUND => "There is no method '{0}' on type '{1}' that matches the specified arguments.";
     }
 }
