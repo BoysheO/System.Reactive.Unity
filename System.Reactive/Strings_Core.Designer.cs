@@ -63,82 +63,46 @@ namespace System.Reactive {
         /// <summary>
         ///   Looks up a localized string similar to Using the Scheduler.{0} property is no longer supported due to refactoring of the API surface and elimination of platform-specific dependencies. Please include System.Reactive.PlatformServices for your target platform and use the {0}Scheduler type instead. If you&apos;re building a Windows Store app, notice some schedulers are no longer supported. Consider using Scheduler.Default instead..
         /// </summary>
-        internal static string CANT_OBTAIN_SCHEDULER {
-            get {
-                return ResourceManager.GetString("CANT_OBTAIN_SCHEDULER", resourceCulture);
-            }
-        }
+        internal static string CANT_OBTAIN_SCHEDULER => "Using the Scheduler.{0} property is no longer supported due to refactoring of the API surface and elimination of platform-specific dependencies. Please include System.Reactive.PlatformServices for your target platform and use the {0}Scheduler type instead. If you're building a Windows Store app, notice some schedulers are no longer supported. Consider using Scheduler.Default instead.";
         
         /// <summary>
         ///   Looks up a localized string similar to OnCompleted notification doesn&apos;t have a value..
         /// </summary>
-        internal static string COMPLETED_NO_VALUE {
-            get {
-                return ResourceManager.GetString("COMPLETED_NO_VALUE", resourceCulture);
-            }
-        }
+        internal static string COMPLETED_NO_VALUE => "OnCompleted notification doesn't have a value.";
         
         /// <summary>
         ///   Looks up a localized string similar to Disposable has already been assigned..
         /// </summary>
-        internal static string DISPOSABLE_ALREADY_ASSIGNED {
-            get {
-                return ResourceManager.GetString("DISPOSABLE_ALREADY_ASSIGNED", resourceCulture);
-            }
-        }
+        internal static string DISPOSABLE_ALREADY_ASSIGNED => "Disposable has already been assigned.";
         
         /// <summary>
         ///   Looks up a localized string similar to Disposables collection can not contain null values..
         /// </summary>
-        internal static string DISPOSABLES_CANT_CONTAIN_NULL {
-            get {
-                return ResourceManager.GetString("DISPOSABLES_CANT_CONTAIN_NULL", resourceCulture);
-            }
-        }
+        internal static string DISPOSABLES_CANT_CONTAIN_NULL => "Disposables collection can not contain null values.";
         
         /// <summary>
         ///   Looks up a localized string similar to Failed to start monitoring system clock changes..
         /// </summary>
-        internal static string FAILED_CLOCK_MONITORING {
-            get {
-                return ResourceManager.GetString("FAILED_CLOCK_MONITORING", resourceCulture);
-            }
-        }
+        internal static string FAILED_CLOCK_MONITORING => "Failed to start monitoring system clock changes.";
         
         /// <summary>
         ///   Looks up a localized string similar to Heap is empty..
         /// </summary>
-        internal static string HEAP_EMPTY {
-            get {
-                return ResourceManager.GetString("HEAP_EMPTY", resourceCulture);
-            }
-        }
+        internal static string HEAP_EMPTY => "Heap is empty.";
         
         /// <summary>
         ///   Looks up a localized string similar to Observer has already terminated..
         /// </summary>
-        internal static string OBSERVER_TERMINATED {
-            get {
-                return ResourceManager.GetString("OBSERVER_TERMINATED", resourceCulture);
-            }
-        }
+        internal static string OBSERVER_TERMINATED => "Observer has already terminated.";
         
         /// <summary>
         ///   Looks up a localized string similar to Reentrancy has been detected..
         /// </summary>
-        internal static string REENTRANCY_DETECTED {
-            get {
-                return ResourceManager.GetString("REENTRANCY_DETECTED", resourceCulture);
-            }
-        }
+        internal static string REENTRANCY_DETECTED => "Reentrancy has been detected.";
         
         /// <summary>
         ///   Looks up a localized string similar to This scheduler operation has already been awaited..
         /// </summary>
-        internal static string SCHEDULER_OPERATION_ALREADY_AWAITED {
-            get {
-                return ResourceManager.GetString("SCHEDULER_OPERATION_ALREADY_AWAITED", resourceCulture);
-            }
-        }
+        internal static string SCHEDULER_OPERATION_ALREADY_AWAITED => "This scheduler operation has already been awaited.";
     }
 }
