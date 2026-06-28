@@ -63,145 +63,81 @@ namespace System.Reactive {
         /// <summary>
         ///   Looks up a localized string similar to {0} cannot be called when the scheduler is already running. Try using Sleep instead..
         /// </summary>
-        internal static string CANT_ADVANCE_WHILE_RUNNING {
-            get {
-                return ResourceManager.GetString("CANT_ADVANCE_WHILE_RUNNING", resourceCulture);
-            }
-        }
+        internal static string CANT_ADVANCE_WHILE_RUNNING => "{0} cannot be called when the scheduler is already running. Try using Sleep instead.";
         
         /// <summary>
         ///   Looks up a localized string similar to Could not find event &apos;{0}&apos; on object of type &apos;{1}&apos;..
         /// </summary>
-        internal static string COULD_NOT_FIND_INSTANCE_EVENT {
-            get {
-                return ResourceManager.GetString("COULD_NOT_FIND_INSTANCE_EVENT", resourceCulture);
-            }
-        }
+        internal static string COULD_NOT_FIND_INSTANCE_EVENT => "Could not find event '{0}' on object of type '{1}'.";
         
         /// <summary>
         ///   Looks up a localized string similar to Could not find event &apos;{0}&apos; on type &apos;{1}&apos;..
         /// </summary>
-        internal static string COULD_NOT_FIND_STATIC_EVENT {
-            get {
-                return ResourceManager.GetString("COULD_NOT_FIND_STATIC_EVENT", resourceCulture);
-            }
-        }
+        internal static string COULD_NOT_FIND_STATIC_EVENT => "Could not find event '{0}' on type '{1}'.";
         
         /// <summary>
         ///   Looks up a localized string similar to Add method should take 1 parameter..
         /// </summary>
-        internal static string EVENT_ADD_METHOD_SHOULD_TAKE_ONE_PARAMETER {
-            get {
-                return ResourceManager.GetString("EVENT_ADD_METHOD_SHOULD_TAKE_ONE_PARAMETER", resourceCulture);
-            }
-        }
+        internal static string EVENT_ADD_METHOD_SHOULD_TAKE_ONE_PARAMETER => "Add method should take 1 parameter.";
         
         /// <summary>
         ///   Looks up a localized string similar to The second parameter of the event delegate must be assignable to &apos;{0}&apos;..
         /// </summary>
-        internal static string EVENT_ARGS_NOT_ASSIGNABLE {
-            get {
-                return ResourceManager.GetString("EVENT_ARGS_NOT_ASSIGNABLE", resourceCulture);
-            }
-        }
+        internal static string EVENT_ARGS_NOT_ASSIGNABLE => "The second parameter of the event delegate must be assignable to '{0}'.";
         
         /// <summary>
         ///   Looks up a localized string similar to Event is missing the add method..
         /// </summary>
-        internal static string EVENT_MISSING_ADD_METHOD {
-            get {
-                return ResourceManager.GetString("EVENT_MISSING_ADD_METHOD", resourceCulture);
-            }
-        }
+        internal static string EVENT_MISSING_ADD_METHOD => "Event is missing the add method.";
         
         /// <summary>
         ///   Looks up a localized string similar to Event is missing the remove method..
         /// </summary>
-        internal static string EVENT_MISSING_REMOVE_METHOD {
-            get {
-                return ResourceManager.GetString("EVENT_MISSING_REMOVE_METHOD", resourceCulture);
-            }
-        }
+        internal static string EVENT_MISSING_REMOVE_METHOD => "Event is missing the remove method.";
         
         /// <summary>
         ///   Looks up a localized string similar to The event delegate must have a void return type..
         /// </summary>
-        internal static string EVENT_MUST_RETURN_VOID {
-            get {
-                return ResourceManager.GetString("EVENT_MUST_RETURN_VOID", resourceCulture);
-            }
-        }
+        internal static string EVENT_MUST_RETURN_VOID => "The event delegate must have a void return type.";
         
         /// <summary>
         ///   Looks up a localized string similar to The event delegate must have exactly two parameters..
         /// </summary>
-        internal static string EVENT_PATTERN_REQUIRES_TWO_PARAMETERS {
-            get {
-                return ResourceManager.GetString("EVENT_PATTERN_REQUIRES_TWO_PARAMETERS", resourceCulture);
-            }
-        }
+        internal static string EVENT_PATTERN_REQUIRES_TWO_PARAMETERS => "The event delegate must have exactly two parameters.";
         
         /// <summary>
         ///   Looks up a localized string similar to Remove method should take 1 parameter..
         /// </summary>
-        internal static string EVENT_REMOVE_METHOD_SHOULD_TAKE_ONE_PARAMETER {
-            get {
-                return ResourceManager.GetString("EVENT_REMOVE_METHOD_SHOULD_TAKE_ONE_PARAMETER", resourceCulture);
-            }
-        }
+        internal static string EVENT_REMOVE_METHOD_SHOULD_TAKE_ONE_PARAMETER => "Remove method should take 1 parameter.";
         
         /// <summary>
         ///   Looks up a localized string similar to The first parameter of the event delegate must be assignable to &apos;{0}&apos;..
         /// </summary>
-        internal static string EVENT_SENDER_NOT_ASSIGNABLE {
-            get {
-                return ResourceManager.GetString("EVENT_SENDER_NOT_ASSIGNABLE", resourceCulture);
-            }
-        }
+        internal static string EVENT_SENDER_NOT_ASSIGNABLE => "The first parameter of the event delegate must be assignable to '{0}'.";
         
         /// <summary>
         ///   Looks up a localized string similar to Remove method of a WinRT event should take an EventRegistrationToken..
         /// </summary>
-        internal static string EVENT_WINRT_REMOVE_METHOD_SHOULD_TAKE_ERT {
-            get {
-                return ResourceManager.GetString("EVENT_WINRT_REMOVE_METHOD_SHOULD_TAKE_ERT", resourceCulture);
-            }
-        }
+        internal static string EVENT_WINRT_REMOVE_METHOD_SHOULD_TAKE_ERT => "Remove method of a WinRT event should take an EventRegistrationToken.";
         
         /// <summary>
         ///   Looks up a localized string similar to Sequence contains more than one element..
         /// </summary>
-        internal static string MORE_THAN_ONE_ELEMENT {
-            get {
-                return ResourceManager.GetString("MORE_THAN_ONE_ELEMENT", resourceCulture);
-            }
-        }
+        internal static string MORE_THAN_ONE_ELEMENT => "Sequence contains more than one element.";
         
         /// <summary>
         ///   Looks up a localized string similar to Sequence contains more than one matching element..
         /// </summary>
-        internal static string MORE_THAN_ONE_MATCHING_ELEMENT {
-            get {
-                return ResourceManager.GetString("MORE_THAN_ONE_MATCHING_ELEMENT", resourceCulture);
-            }
-        }
+        internal static string MORE_THAN_ONE_MATCHING_ELEMENT => "Sequence contains more than one matching element.";
         
         /// <summary>
         ///   Looks up a localized string similar to Sequence contains no elements..
         /// </summary>
-        internal static string NO_ELEMENTS {
-            get {
-                return ResourceManager.GetString("NO_ELEMENTS", resourceCulture);
-            }
-        }
+        internal static string NO_ELEMENTS => "Sequence contains no elements.";
         
         /// <summary>
         ///   Looks up a localized string similar to Sequence contains no matching element..
         /// </summary>
-        internal static string NO_MATCHING_ELEMENTS {
-            get {
-                return ResourceManager.GetString("NO_MATCHING_ELEMENTS", resourceCulture);
-            }
-        }
+        internal static string NO_MATCHING_ELEMENTS => "Sequence contains no matching element.";
     }
 }
