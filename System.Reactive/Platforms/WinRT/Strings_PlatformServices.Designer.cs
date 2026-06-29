@@ -63,10 +63,6 @@ namespace System.Reactive {
         /// <summary>
         ///   Looks up a localized string similar to The WinRT thread pool doesn&apos;t support creating periodic timers with a period below 1 millisecond..
         /// </summary>
-        internal static string WINRT_NO_SUB1MS_TIMERS {
-            get {
-                return ResourceManager.GetString("WINRT_NO_SUB1MS_TIMERS", resourceCulture);
-            }
-        }
+        internal static string WINRT_NO_SUB1MS_TIMERS => "The WinRT thread pool doesn't support creating periodic timers with a period below 1 millisecond.";
     }
 }
